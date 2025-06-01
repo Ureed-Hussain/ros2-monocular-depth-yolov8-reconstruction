@@ -15,14 +15,7 @@ The system captures camera data on a Raspberry Pi using ROS 2, streams it to a l
 
 ## 🖥️ System Architecture
 
-┌──────────────┐ ROS2 Topic          ┌────────────────────┐
-│ Raspberry Pi │ ──────────────────▶ │ Laptop (ROS2) │
-│ Publishes │                        │ - YOLOv8 │
-│ camera/image_raw                   │ - MiDaS │
-└──────────────┘                     │ - Open3D PointCloud│
-                                     └────────────────────┘
-
----
+![Blank diagram](https://github.com/user-attachments/assets/b8d6e82e-a5bc-4461-8f3a-511554c09590)
 
 ## 📋 Requirements
 
