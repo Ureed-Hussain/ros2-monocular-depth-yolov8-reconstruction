@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/camera_calibration_pkg/camera_calibration_pkg.egg-info
+writing ../../build/camera_calibration_pkg/camera_calibration_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/camera_calibration_pkg/camera_calibration_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/camera_calibration_pkg/camera_calibration_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/camera_calibration_pkg/camera_calibration_pkg.egg-info/requires.txt
+writing top-level names to ../../build/camera_calibration_pkg/camera_calibration_pkg.egg-info/top_level.txt
+writing manifest file '../../build/camera_calibration_pkg/camera_calibration_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/camera_calibration_pkg/camera_calibration_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/camera_calibration_pkg/camera_calibration_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/uhreed/yolo_ws/build/camera_calibration_pkg/build
+creating /home/uhreed/yolo_ws/build/camera_calibration_pkg/build/lib
+creating /home/uhreed/yolo_ws/build/camera_calibration_pkg/build/lib/camera_calibration_pkg
+copying camera_calibration_pkg/camera_calibrator.py -> /home/uhreed/yolo_ws/build/camera_calibration_pkg/build/lib/camera_calibration_pkg
+copying camera_calibration_pkg/__init__.py -> /home/uhreed/yolo_ws/build/camera_calibration_pkg/build/lib/camera_calibration_pkg
+running install
+running install_lib
+creating /home/uhreed/yolo_ws/install/camera_calibration_pkg/lib/python3.10/site-packages/camera_calibration_pkg
+copying /home/uhreed/yolo_ws/build/camera_calibration_pkg/build/lib/camera_calibration_pkg/camera_calibrator.py -> /home/uhreed/yolo_ws/install/camera_calibration_pkg/lib/python3.10/site-packages/camera_calibration_pkg
+copying /home/uhreed/yolo_ws/build/camera_calibration_pkg/build/lib/camera_calibration_pkg/__init__.py -> /home/uhreed/yolo_ws/install/camera_calibration_pkg/lib/python3.10/site-packages/camera_calibration_pkg
+byte-compiling /home/uhreed/yolo_ws/install/camera_calibration_pkg/lib/python3.10/site-packages/camera_calibration_pkg/camera_calibrator.py to camera_calibrator.cpython-310.pyc
+byte-compiling /home/uhreed/yolo_ws/install/camera_calibration_pkg/lib/python3.10/site-packages/camera_calibration_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/uhreed/yolo_ws/install/camera_calibration_pkg/share/ament_index
+creating /home/uhreed/yolo_ws/install/camera_calibration_pkg/share/ament_index/resource_index
+creating /home/uhreed/yolo_ws/install/camera_calibration_pkg/share/ament_index/resource_index/packages
+copying resource/camera_calibration_pkg -> /home/uhreed/yolo_ws/install/camera_calibration_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/uhreed/yolo_ws/install/camera_calibration_pkg/share/camera_calibration_pkg
+running install_egg_info
+Copying ../../build/camera_calibration_pkg/camera_calibration_pkg.egg-info to /home/uhreed/yolo_ws/install/camera_calibration_pkg/lib/python3.10/site-packages/camera_calibration_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_calibrator script to /home/uhreed/yolo_ws/install/camera_calibration_pkg/lib/camera_calibration_pkg
+writing list of installed files to '/home/uhreed/yolo_ws/build/camera_calibration_pkg/install.log'

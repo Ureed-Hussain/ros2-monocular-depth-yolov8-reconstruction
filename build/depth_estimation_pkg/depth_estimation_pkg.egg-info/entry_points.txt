@@ -1,0 +1,2 @@
+[console_scripts]
+depth_subscriber = depth_estimation_pkg.subscriber_depth:main

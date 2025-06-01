@@ -1,0 +1,2 @@
+[console_scripts]
+yolo_node = yolo_subscriber.yolo_node:main

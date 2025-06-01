@@ -1,0 +1,2 @@
+[console_scripts]
+camera_calibrator = camera_calibration_pkg.camera_calibrator:main

@@ -1,0 +1,24 @@
+[0.807s] Invoking command in '/home/uhreed/yolo_ws/src/yolo_subscriber': PYTHONPATH=/home/uhreed/yolo_ws/build/yolo_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uhreed/yolo_ws/install/yolo_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_subscriber build --build-base /home/uhreed/yolo_ws/build/yolo_subscriber/build install --record /home/uhreed/yolo_ws/build/yolo_subscriber/install.log --single-version-externally-managed install_data
+[1.189s] running egg_info
+[1.213s] writing ../../build/yolo_subscriber/yolo_subscriber.egg-info/PKG-INFO
+[1.214s] writing dependency_links to ../../build/yolo_subscriber/yolo_subscriber.egg-info/dependency_links.txt
+[1.214s] writing entry points to ../../build/yolo_subscriber/yolo_subscriber.egg-info/entry_points.txt
+[1.214s] writing requirements to ../../build/yolo_subscriber/yolo_subscriber.egg-info/requires.txt
+[1.214s] writing top-level names to ../../build/yolo_subscriber/yolo_subscriber.egg-info/top_level.txt
+[1.270s] reading manifest file '../../build/yolo_subscriber/yolo_subscriber.egg-info/SOURCES.txt'
+[1.272s] writing manifest file '../../build/yolo_subscriber/yolo_subscriber.egg-info/SOURCES.txt'
+[1.272s] running build
+[1.272s] running build_py
+[1.272s] copying yolo_subscriber/yolo_node.py -> /home/uhreed/yolo_ws/build/yolo_subscriber/build/lib/yolo_subscriber
+[1.273s] running install
+[1.285s] running install_lib
+[1.313s] copying /home/uhreed/yolo_ws/build/yolo_subscriber/build/lib/yolo_subscriber/yolo_node.py -> /home/uhreed/yolo_ws/install/yolo_subscriber/lib/python3.10/site-packages/yolo_subscriber
+[1.313s] byte-compiling /home/uhreed/yolo_ws/install/yolo_subscriber/lib/python3.10/site-packages/yolo_subscriber/yolo_node.py to yolo_node.cpython-310.pyc
+[1.314s] running install_data
+[1.315s] running install_egg_info
+[1.345s] removing '/home/uhreed/yolo_ws/install/yolo_subscriber/lib/python3.10/site-packages/yolo_subscriber-0.0.0-py3.10.egg-info' (and everything under it)
+[1.345s] Copying ../../build/yolo_subscriber/yolo_subscriber.egg-info to /home/uhreed/yolo_ws/install/yolo_subscriber/lib/python3.10/site-packages/yolo_subscriber-0.0.0-py3.10.egg-info
+[1.346s] running install_scripts
+[1.543s] Installing yolo_node script to /home/uhreed/yolo_ws/install/yolo_subscriber/lib/yolo_subscriber
+[1.543s] writing list of installed files to '/home/uhreed/yolo_ws/build/yolo_subscriber/install.log'
+[1.571s] Invoked command in '/home/uhreed/yolo_ws/src/yolo_subscriber' returned '0': PYTHONPATH=/home/uhreed/yolo_ws/build/yolo_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uhreed/yolo_ws/install/yolo_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_subscriber build --build-base /home/uhreed/yolo_ws/build/yolo_subscriber/build install --record /home/uhreed/yolo_ws/build/yolo_subscriber/install.log --single-version-externally-managed install_data

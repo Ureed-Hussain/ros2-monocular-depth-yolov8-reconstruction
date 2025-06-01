@@ -1,0 +1,37 @@
+[1.103s] Invoking command in '/home/uhreed/yolo_ws/src/camera_calibration_pkg': PYTHONPATH=/home/uhreed/yolo_ws/build/camera_calibration_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uhreed/yolo_ws/install/camera_calibration_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_calibration_pkg build --build-base /home/uhreed/yolo_ws/build/camera_calibration_pkg/build install --record /home/uhreed/yolo_ws/build/camera_calibration_pkg/install.log --single-version-externally-managed install_data
+[1.386s] running egg_info
+[1.386s] creating ../../build/camera_calibration_pkg/camera_calibration_pkg.egg-info
+[1.406s] writing ../../build/camera_calibration_pkg/camera_calibration_pkg.egg-info/PKG-INFO
+[1.406s] writing dependency_links to ../../build/camera_calibration_pkg/camera_calibration_pkg.egg-info/dependency_links.txt
+[1.407s] writing entry points to ../../build/camera_calibration_pkg/camera_calibration_pkg.egg-info/entry_points.txt
+[1.407s] writing requirements to ../../build/camera_calibration_pkg/camera_calibration_pkg.egg-info/requires.txt
+[1.407s] writing top-level names to ../../build/camera_calibration_pkg/camera_calibration_pkg.egg-info/top_level.txt
+[1.407s] writing manifest file '../../build/camera_calibration_pkg/camera_calibration_pkg.egg-info/SOURCES.txt'
+[1.448s] reading manifest file '../../build/camera_calibration_pkg/camera_calibration_pkg.egg-info/SOURCES.txt'
+[1.450s] writing manifest file '../../build/camera_calibration_pkg/camera_calibration_pkg.egg-info/SOURCES.txt'
+[1.450s] running build
+[1.450s] running build_py
+[1.450s] creating /home/uhreed/yolo_ws/build/camera_calibration_pkg/build
+[1.450s] creating /home/uhreed/yolo_ws/build/camera_calibration_pkg/build/lib
+[1.450s] creating /home/uhreed/yolo_ws/build/camera_calibration_pkg/build/lib/camera_calibration_pkg
+[1.450s] copying camera_calibration_pkg/camera_calibrator.py -> /home/uhreed/yolo_ws/build/camera_calibration_pkg/build/lib/camera_calibration_pkg
+[1.451s] copying camera_calibration_pkg/__init__.py -> /home/uhreed/yolo_ws/build/camera_calibration_pkg/build/lib/camera_calibration_pkg
+[1.451s] running install
+[1.472s] running install_lib
+[1.476s] creating /home/uhreed/yolo_ws/install/camera_calibration_pkg/lib/python3.10/site-packages/camera_calibration_pkg
+[1.476s] copying /home/uhreed/yolo_ws/build/camera_calibration_pkg/build/lib/camera_calibration_pkg/camera_calibrator.py -> /home/uhreed/yolo_ws/install/camera_calibration_pkg/lib/python3.10/site-packages/camera_calibration_pkg
+[1.476s] copying /home/uhreed/yolo_ws/build/camera_calibration_pkg/build/lib/camera_calibration_pkg/__init__.py -> /home/uhreed/yolo_ws/install/camera_calibration_pkg/lib/python3.10/site-packages/camera_calibration_pkg
+[1.477s] byte-compiling /home/uhreed/yolo_ws/install/camera_calibration_pkg/lib/python3.10/site-packages/camera_calibration_pkg/camera_calibrator.py to camera_calibrator.cpython-310.pyc
+[1.478s] byte-compiling /home/uhreed/yolo_ws/install/camera_calibration_pkg/lib/python3.10/site-packages/camera_calibration_pkg/__init__.py to __init__.cpython-310.pyc
+[1.478s] running install_data
+[1.478s] creating /home/uhreed/yolo_ws/install/camera_calibration_pkg/share/ament_index
+[1.478s] creating /home/uhreed/yolo_ws/install/camera_calibration_pkg/share/ament_index/resource_index
+[1.478s] creating /home/uhreed/yolo_ws/install/camera_calibration_pkg/share/ament_index/resource_index/packages
+[1.478s] copying resource/camera_calibration_pkg -> /home/uhreed/yolo_ws/install/camera_calibration_pkg/share/ament_index/resource_index/packages
+[1.478s] copying package.xml -> /home/uhreed/yolo_ws/install/camera_calibration_pkg/share/camera_calibration_pkg
+[1.478s] running install_egg_info
+[1.500s] Copying ../../build/camera_calibration_pkg/camera_calibration_pkg.egg-info to /home/uhreed/yolo_ws/install/camera_calibration_pkg/lib/python3.10/site-packages/camera_calibration_pkg-0.0.0-py3.10.egg-info
+[1.501s] running install_scripts
+[1.698s] Installing camera_calibrator script to /home/uhreed/yolo_ws/install/camera_calibration_pkg/lib/camera_calibration_pkg
+[1.698s] writing list of installed files to '/home/uhreed/yolo_ws/build/camera_calibration_pkg/install.log'
+[1.723s] Invoked command in '/home/uhreed/yolo_ws/src/camera_calibration_pkg' returned '0': PYTHONPATH=/home/uhreed/yolo_ws/build/camera_calibration_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uhreed/yolo_ws/install/camera_calibration_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_calibration_pkg build --build-base /home/uhreed/yolo_ws/build/camera_calibration_pkg/build install --record /home/uhreed/yolo_ws/build/camera_calibration_pkg/install.log --single-version-externally-managed install_data

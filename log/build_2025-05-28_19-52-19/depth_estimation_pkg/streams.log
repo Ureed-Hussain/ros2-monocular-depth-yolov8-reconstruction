@@ -1,0 +1,24 @@
+[1.243s] Invoking command in '/home/uhreed/yolo_ws/src/depth_estimation_pkg': PYTHONPATH=/home/uhreed/yolo_ws/build/depth_estimation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uhreed/yolo_ws/install/depth_estimation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/depth_estimation_pkg build --build-base /home/uhreed/yolo_ws/build/depth_estimation_pkg/build install --record /home/uhreed/yolo_ws/build/depth_estimation_pkg/install.log --single-version-externally-managed install_data
+[1.532s] running egg_info
+[1.553s] writing ../../build/depth_estimation_pkg/depth_estimation_pkg.egg-info/PKG-INFO
+[1.553s] writing dependency_links to ../../build/depth_estimation_pkg/depth_estimation_pkg.egg-info/dependency_links.txt
+[1.554s] writing entry points to ../../build/depth_estimation_pkg/depth_estimation_pkg.egg-info/entry_points.txt
+[1.554s] writing requirements to ../../build/depth_estimation_pkg/depth_estimation_pkg.egg-info/requires.txt
+[1.554s] writing top-level names to ../../build/depth_estimation_pkg/depth_estimation_pkg.egg-info/top_level.txt
+[1.597s] reading manifest file '../../build/depth_estimation_pkg/depth_estimation_pkg.egg-info/SOURCES.txt'
+[1.598s] writing manifest file '../../build/depth_estimation_pkg/depth_estimation_pkg.egg-info/SOURCES.txt'
+[1.598s] running build
+[1.598s] running build_py
+[1.598s] copying depth_estimation_pkg/subscriber_depth.py -> /home/uhreed/yolo_ws/build/depth_estimation_pkg/build/lib/depth_estimation_pkg
+[1.599s] running install
+[1.605s] running install_lib
+[1.627s] copying /home/uhreed/yolo_ws/build/depth_estimation_pkg/build/lib/depth_estimation_pkg/subscriber_depth.py -> /home/uhreed/yolo_ws/install/depth_estimation_pkg/lib/python3.10/site-packages/depth_estimation_pkg
+[1.628s] byte-compiling /home/uhreed/yolo_ws/install/depth_estimation_pkg/lib/python3.10/site-packages/depth_estimation_pkg/subscriber_depth.py to subscriber_depth.cpython-310.pyc
+[1.629s] running install_data
+[1.629s] running install_egg_info
+[1.652s] removing '/home/uhreed/yolo_ws/install/depth_estimation_pkg/lib/python3.10/site-packages/depth_estimation_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.653s] Copying ../../build/depth_estimation_pkg/depth_estimation_pkg.egg-info to /home/uhreed/yolo_ws/install/depth_estimation_pkg/lib/python3.10/site-packages/depth_estimation_pkg-0.0.0-py3.10.egg-info
+[1.654s] running install_scripts
+[1.839s] Installing depth_subscriber script to /home/uhreed/yolo_ws/install/depth_estimation_pkg/lib/depth_estimation_pkg
+[1.840s] writing list of installed files to '/home/uhreed/yolo_ws/build/depth_estimation_pkg/install.log'
+[1.871s] Invoked command in '/home/uhreed/yolo_ws/src/depth_estimation_pkg' returned '0': PYTHONPATH=/home/uhreed/yolo_ws/build/depth_estimation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uhreed/yolo_ws/install/depth_estimation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/depth_estimation_pkg build --build-base /home/uhreed/yolo_ws/build/depth_estimation_pkg/build install --record /home/uhreed/yolo_ws/build/depth_estimation_pkg/install.log --single-version-externally-managed install_data

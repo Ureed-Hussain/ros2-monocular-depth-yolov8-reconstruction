@@ -1,0 +1,127 @@
+[0.121s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.121s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71e5f5004610>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71e5f5004160>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71e5f5004160>>, mixin_verb=('build',))
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.156s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/uhreed/yolo_ws'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_subscriber) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_subscriber) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_subscriber) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_subscriber) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_subscriber) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_subscriber) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_subscriber) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_subscriber) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_subscriber' with type 'ros.ament_python' and name 'yolo_subscriber'
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.196s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/uhreed/yolo_ws/install
+[0.197s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 422 installed packages in /opt/ros/humble
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'yolo_subscriber' build argument 'cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'yolo_subscriber' build argument 'cmake_target' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'yolo_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'yolo_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'yolo_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'yolo_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'yolo_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'yolo_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'yolo_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/uhreed/yolo_ws/build/yolo_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/uhreed/yolo_ws/install/yolo_subscriber', 'merge_install': False, 'path': '/home/uhreed/yolo_ws/src/yolo_subscriber', 'symlink_install': False, 'test_result_base': None}
+[0.250s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.252s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.252s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/uhreed/yolo_ws/src/yolo_subscriber' with build type 'ament_python'
+[0.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_subscriber', 'ament_prefix_path')
+[0.254s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uhreed/yolo_ws/install/yolo_subscriber/share/yolo_subscriber/hook/ament_prefix_path.ps1'
+[0.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uhreed/yolo_ws/install/yolo_subscriber/share/yolo_subscriber/hook/ament_prefix_path.dsv'
+[0.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uhreed/yolo_ws/install/yolo_subscriber/share/yolo_subscriber/hook/ament_prefix_path.sh'
+[0.256s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.256s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.468s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/uhreed/yolo_ws/src/yolo_subscriber'
+[0.468s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/uhreed/yolo_ws/src/yolo_subscriber': PYTHONPATH=/home/uhreed/yolo_ws/build/yolo_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uhreed/yolo_ws/install/yolo_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_subscriber build --build-base /home/uhreed/yolo_ws/build/yolo_subscriber/build install --record /home/uhreed/yolo_ws/build/yolo_subscriber/install.log --single-version-externally-managed install_data
+[1.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/uhreed/yolo_ws/src/yolo_subscriber' returned '0': PYTHONPATH=/home/uhreed/yolo_ws/build/yolo_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uhreed/yolo_ws/install/yolo_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_subscriber build --build-base /home/uhreed/yolo_ws/build/yolo_subscriber/build install --record /home/uhreed/yolo_ws/build/yolo_subscriber/install.log --single-version-externally-managed install_data
+[1.826s] Level 1:colcon.colcon_core.environment:checking '/home/uhreed/yolo_ws/install/yolo_subscriber' for CMake module files
+[1.827s] Level 1:colcon.colcon_core.environment:checking '/home/uhreed/yolo_ws/install/yolo_subscriber' for CMake config files
+[1.827s] Level 1:colcon.colcon_core.environment:checking '/home/uhreed/yolo_ws/install/yolo_subscriber/lib'
+[1.828s] Level 1:colcon.colcon_core.environment:checking '/home/uhreed/yolo_ws/install/yolo_subscriber/bin'
+[1.828s] Level 1:colcon.colcon_core.environment:checking '/home/uhreed/yolo_ws/install/yolo_subscriber/lib/pkgconfig/yolo_subscriber.pc'
+[1.828s] Level 1:colcon.colcon_core.environment:checking '/home/uhreed/yolo_ws/install/yolo_subscriber/lib/python3.10/site-packages'
+[1.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_subscriber', 'pythonpath')
+[1.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uhreed/yolo_ws/install/yolo_subscriber/share/yolo_subscriber/hook/pythonpath.ps1'
+[1.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/uhreed/yolo_ws/install/yolo_subscriber/share/yolo_subscriber/hook/pythonpath.dsv'
+[1.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/uhreed/yolo_ws/install/yolo_subscriber/share/yolo_subscriber/hook/pythonpath.sh'
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/uhreed/yolo_ws/install/yolo_subscriber/bin'
+[1.830s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_subscriber)
+[1.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/uhreed/yolo_ws/install/yolo_subscriber/share/yolo_subscriber/package.ps1'
+[1.831s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/uhreed/yolo_ws/install/yolo_subscriber/share/yolo_subscriber/package.dsv'
+[1.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/uhreed/yolo_ws/install/yolo_subscriber/share/yolo_subscriber/package.sh'
+[1.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/uhreed/yolo_ws/install/yolo_subscriber/share/yolo_subscriber/package.bash'
+[1.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/uhreed/yolo_ws/install/yolo_subscriber/share/yolo_subscriber/package.zsh'
+[1.834s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/uhreed/yolo_ws/install/yolo_subscriber/share/colcon-core/packages/yolo_subscriber)
+[1.834s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.835s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.835s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.835s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.840s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.840s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.840s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.851s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.851s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uhreed/yolo_ws/install/local_setup.ps1'
+[1.852s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/uhreed/yolo_ws/install/_local_setup_util_ps1.py'
+[1.854s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uhreed/yolo_ws/install/setup.ps1'
+[1.866s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uhreed/yolo_ws/install/local_setup.sh'
+[1.867s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/uhreed/yolo_ws/install/_local_setup_util_sh.py'
+[1.867s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uhreed/yolo_ws/install/setup.sh'
+[1.868s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uhreed/yolo_ws/install/local_setup.bash'
+[1.869s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uhreed/yolo_ws/install/setup.bash'
+[1.870s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/uhreed/yolo_ws/install/local_setup.zsh'
+[1.870s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/uhreed/yolo_ws/install/setup.zsh'
