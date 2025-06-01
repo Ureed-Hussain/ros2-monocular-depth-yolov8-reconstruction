@@ -20,7 +20,7 @@ The system captures camera data on a Raspberry Pi using ROS 2, streams it to a l
 ## 📋 Requirements
 
 ### On **Raspberry Pi**:
-- ROS 2 Humble (another ros2) 
+- ROS 2 Humble
 - Pi Camera enabled
 - `v4l2_camera` or custom camera node (publishing to `/camera/image_raw`)
 
