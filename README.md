@@ -5,6 +5,9 @@ The system captures camera data on a Raspberry Pi using ROS 2, streams it to a l
 
 ---
 
+![0601](https://github.com/user-attachments/assets/66a52f97-7b35-4f38-94fe-fe95d9f31631)
+
+
 ## 📦 Packages
 
 - `camera_calibration_pkg` – For intrinsic calibration of the Pi camera.
