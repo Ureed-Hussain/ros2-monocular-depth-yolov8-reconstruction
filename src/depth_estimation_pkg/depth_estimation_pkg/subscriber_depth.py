@@ -13,7 +13,7 @@ camera_matrix = np.array([
     [0., 459.90497509, -4.31993347],
     [0., 0., 1.]
 ])
-# ⚠️ Not used:
+# ⚠ Not used:
 # dist_coeffs = np.array([...])
 
 class DepthSubscriber(Node):
@@ -28,7 +28,7 @@ class DepthSubscriber(Node):
         )
         self.bridge = CvBridge()
 
-        # ✅ Load MiDaS small model and transform
+        # Load MiDaS small model and transform
         self.model_type = "MiDaS_small"
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.model = torch.hub.load("intel-isl/MiDaS", self.model_type)
@@ -38,7 +38,7 @@ class DepthSubscriber(Node):
         midas_transforms = torch.hub.load("intel-isl/MiDaS", "transforms")
         self.transform = midas_transforms.small_transform
 
-        # 👇 Open3D Visualizer for real-time point cloud updates
+        #  Open3D Visualizer for real-time point cloud updates
         self.vis = o3d.visualization.Visualizer()
         self.vis.create_window(window_name="Live 3D Point Cloud")
         self.pcd = o3d.geometry.PointCloud()
@@ -94,7 +94,7 @@ def create_point_cloud(depth_map, rgb_image, fx, fy, cx, cy):
 
     Z = depth_map.flatten()
     X = (i.flatten() - cx) * Z / fx
-    Y = -(j.flatten() - cy) * Z / fy  # ✅ Invert Y-axis here
+    Y = -(j.flatten() - cy) * Z / fy  # Invert Y-axis here
 
     points = np.vstack((X, Y, Z)).T
     colors = rgb_image.reshape(-1, 3) / 255.0
