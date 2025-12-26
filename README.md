@@ -21,7 +21,7 @@ The system captures camera data on a Raspberry Pi using ROS 2, streams it to a l
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b8d6e82e-a5bc-4461-8f3a-511554c09590" alt="Blank diagram" />
+  <img src="https://github.com/user-attachments/assets/b8d6e82e-a5bc-4461-8f3a-511554c09590" alt="Blank diagram" width="500" />
 </p>
 
 
